@@ -1,0 +1,7 @@
+body{
+    background-color: aquamarine;
+}
+form fieldset{
+    width: 50;
+    float: left;
+}
