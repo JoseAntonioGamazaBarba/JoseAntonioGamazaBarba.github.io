@@ -1,0 +1,42 @@
+body {
+  background: url(imagenes/Halloween-1.jpg);
+  background-size: cover;
+}
+header{
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 20em;    
+  height: 20em;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.Cuadro_anuncios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Anuncio {
+  font-family: serif;
+  font-weight: bolder;
+  width: 30em;
+  border-style: solid;
+  border-width: medium;
+  border-color: red;
+  text-align: center;
+  color: white;
+}
+
+.Anuncio:hover {
+  background: url(imagenes/fondo-negro-fa.jpgntasmas);
+  color: white;
+}
+
+.Anuncio:hover img {
+  height: 30em;
+  width: 30em;
+}
